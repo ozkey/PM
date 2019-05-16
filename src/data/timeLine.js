@@ -84,7 +84,7 @@ export const timeLine = [
   },
   {
     name: "Billy Hughes",
-    start: "17/September/1914",
+    start: "27/October/2015",
     end: "14/November/1916",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/d/d7/Billy_Hughes_1915.jpg",
@@ -201,7 +201,8 @@ export const timeLine = [
     name: "Harold Holt",
     start: "26/January/1966",
     end: "19/December/1967",
-    image: "https://upload.wikimedia.org/wikipedia/commons/5/58/Harold_Holt_1965_01.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/5/58/Harold_Holt_1965_01.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -209,7 +210,8 @@ export const timeLine = [
     name: "John McEwen",
     start: "19/December/1967",
     end: "10/January/1968",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Sir_John_McEwen.jpg/800px-Sir_John_McEwen.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Sir_John_McEwen.jpg/800px-Sir_John_McEwen.jpg",
     party: "Country (Coalition)"
   },
 
@@ -217,7 +219,8 @@ export const timeLine = [
     name: "John Gorton",
     start: "10/January/1968",
     end: "10/March/1971",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d3/JohnGorton1968.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d3/JohnGorton1968.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -225,7 +228,8 @@ export const timeLine = [
     name: "William McMahon",
     start: "10/March/1971",
     end: "5/December/1972",
-    image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/McMahon_1971_%28cropped%29.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/0/0b/McMahon_1971_%28cropped%29.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -233,7 +237,8 @@ export const timeLine = [
     name: "Gough Whitlam",
     start: "5/December/1972",
     end: "11/November/1975",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gough_Whitlam_-_ACF_-_crop.jpg/800px-Gough_Whitlam_-_ACF_-_crop.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Gough_Whitlam_-_ACF_-_crop.jpg/800px-Gough_Whitlam_-_ACF_-_crop.jpg",
     party: "Labor"
   },
 
@@ -241,7 +246,8 @@ export const timeLine = [
     name: "Malcolm Fraser",
     start: "11/November/1975",
     end: "11/March/1983",
-    image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Malcolm_Fraser_1977_-_crop.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/7/76/Malcolm_Fraser_1977_-_crop.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -249,7 +255,8 @@ export const timeLine = [
     name: "Bob Hawke",
     start: "11/March/1983",
     end: "20/December/1991",
-    image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Bob_Hawke_1987_portrait_crop.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/2/29/Bob_Hawke_1987_portrait_crop.jpg",
     party: "Labor"
   },
 
@@ -257,7 +264,8 @@ export const timeLine = [
     name: "Paul Keating",
     start: "20/December/1991",
     end: "11/March/1996",
-    image: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Paul_Keating_1985.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/f/ff/Paul_Keating_1985.jpg",
     party: "Labor"
   },
 
@@ -265,7 +273,8 @@ export const timeLine = [
     name: "John Howard",
     start: "11/March/1996",
     end: "3/December/2007",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Image-Howard2003upr.JPG/800px-Image-Howard2003upr.JPG",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Image-Howard2003upr.JPG/800px-Image-Howard2003upr.JPG",
     party: "Liberal (Coalition)"
   },
 
@@ -273,7 +282,8 @@ export const timeLine = [
     name: "Kevin Rudd",
     start: "3/December/2007",
     end: "24/June/2010",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kevin_Rudd_official_portrait.jpg/800px-Kevin_Rudd_official_portrait.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kevin_Rudd_official_portrait.jpg/800px-Kevin_Rudd_official_portrait.jpg",
     party: "Labor"
   },
 
@@ -281,7 +291,8 @@ export const timeLine = [
     name: "Julia Gillard",
     start: "24/June/2010",
     end: "27/June/2013",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Julia_Gillard_2010.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/c/c8/Julia_Gillard_2010.jpg",
     party: "Labor"
   },
 
@@ -289,7 +300,8 @@ export const timeLine = [
     name: "Kevin Rudd",
     start: "27/June/2013",
     end: "18/September/2013",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Hon._Kevin_Rudd.jpg/800px-The_Hon._Kevin_Rudd.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/The_Hon._Kevin_Rudd.jpg/800px-The_Hon._Kevin_Rudd.jpg",
     party: "Labor"
   },
 
@@ -297,7 +309,8 @@ export const timeLine = [
     name: "Tony Abbott",
     start: "18/September/2013",
     end: "15/September/2015",
-    image: "https://upload.wikimedia.org/wikipedia/commons/9/92/Prime_Minister_Tony_Abbott.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/9/92/Prime_Minister_Tony_Abbott.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -305,7 +318,8 @@ export const timeLine = [
     name: "Malcolm Turnbull",
     start: "15/September/2015",
     end: "24/August/2018",
-    image: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Malcolm_Turnbull_PEO_%28cropped%29.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/d/d1/Malcolm_Turnbull_PEO_%28cropped%29.jpg",
     party: "Liberal (Coalition)"
   },
 
@@ -313,8 +327,8 @@ export const timeLine = [
     name: "Scott Morrison",
     start: "24/August/2018",
     end: "Unknown",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Scott_Morrison_2014_crop.jpg/800px-Scott_Morrison_2014_crop.jpg",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Scott_Morrison_2014_crop.jpg/800px-Scott_Morrison_2014_crop.jpg",
     party: "Liberal (Coalition)"
   }
-
 ];

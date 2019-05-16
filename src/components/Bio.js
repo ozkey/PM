@@ -21,7 +21,7 @@ const styles = {
     height: 60
   },
   card: {
-    height: 300,
+    height: 310,
     "page-break-inside": "avoid",
     "page-break-before": "always",
 
@@ -67,14 +67,14 @@ export const _Bio = ({ classes, name, start, end, image, party, previous }) => {
             <Typography variant="subtitle2" component="caption">
               {name}
             </Typography>
-            <hr />
+
             <Typography component="p">{party}</Typography>
             <Typography component="p">
               {start}
               <br />
               {end}
             </Typography>
-            <hr />
+
             <Typography component="caption">
               {years > 0 ? <span> {years} years </span> : undefined}
               {months > 0 ? <span> {months} months </span> : undefined}

@@ -34,7 +34,7 @@ class App extends Component {
         {/*<h1> Prime Minister timeLine! </h1>*/}
 
         {timeLine.map((values, i) => {
-          if (multiple(i)) {
+          if (multiple(i) && i > 11+12) {
             return (
               <Grid
                 spacing={8}
