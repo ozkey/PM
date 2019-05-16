@@ -312,7 +312,7 @@ export const timeLine = [
   {
     name: "Scott Morrison",
     start: "24/August/2018",
-    end: "???",
+    end: "Unknown",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Scott_Morrison_2014_crop.jpg/800px-Scott_Morrison_2014_crop.jpg",
     party: "Liberal (Coalition)"
   }

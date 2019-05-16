@@ -15,17 +15,27 @@ import moment from "moment";
 
 const styles = {
   bigAvatar: {
-    marginTop: 10,
-    marginBottom: -20,
-    width: 80,
-    height: 80
+    marginTop: 20,
+    marginBottom: -15,
+    width: 60,
+    height: 60
+  },
+  card: {
+    height: 300,
+    "page-break-inside": "avoid",
+    "page-break-before": "always",
+
+    "page-break-after": "always",
+    "break-after": "avoid-region"
   }
 };
-export const _Bio = ({ classes, name, start, end, image, party }) => {
+export const _Bio = ({ classes, name, start, end, image, party, previous }) => {
   const m_start = moment(start);
   const m_end = moment(end);
   const years = m_end.diff(m_start, "year");
   const months = m_end.diff(m_start, "months") - 12 * years;
+  let blocks = 3;
+
   const displayMonths = months => {
     let icons = [];
     for (let i = 0; i < months; i++) {
@@ -41,9 +51,10 @@ export const _Bio = ({ classes, name, start, end, image, party }) => {
     }
     return icons;
   };
+
   return (
-    <Grid xs={3} item>
-      <Card className="noBreak">
+    <Grid xs={blocks} item>
+      <Card className="noBreak" className={classes.card}>
         <CardActionArea>
           <Grid container justify="center" alignItems="center">
             <Avatar
@@ -53,18 +64,30 @@ export const _Bio = ({ classes, name, start, end, image, party }) => {
             />
           </Grid>
           <CardContent>
-            <Typography gutterBottom variant="h6" component="h2">
+            <Typography variant="subtitle2" component="caption">
               {name}
             </Typography>
+            <hr />
             <Typography component="p">{party}</Typography>
             <Typography component="p">
               {start}
               <br />
               {end}
             </Typography>
+            <hr />
+            <Typography component="caption">
+              {years > 0 ? <span> {years} years </span> : undefined}
+              {months > 0 ? <span> {months} months </span> : undefined}
+            </Typography>
 
-            {years > 0 ? <span> {years} years </span> : undefined}
-            {months > 0 ? <span> {months} months </span>: undefined}
+            <hr />
+            {previous && (
+              <div>
+                Replaces:
+                <Avatar alt="Remy Sharp" src={previous.image} />
+                <Typography component="p">{previous.name}</Typography>
+              </div>
+            )}
 
             {/*{displayYears(years)}*/}
             {/*{displayMonths(months)}*/}

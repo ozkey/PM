@@ -4,9 +4,19 @@ import Grid from "@material-ui/core/Grid";
 
 import { Bio } from "./components/Bio";
 import { timeLine } from "./data/timeLine";
+import CalendarToday from "@material-ui/core/SvgIcon/SvgIcon";
 
 class App extends Component {
   render() {
+    const displayRow = (timeLine, position) => {
+      let row = [];
+      for (let i = position; i < position + 4; i++) {
+        const previous = i > 0 ? timeLine[i - 1] : undefined;
+        row.push(<Bio {...timeLine[i]} previous={previous} />);
+      }
+      return row;
+    };
+
     const multiple = (x, y = 4) => {
       //x and y are both integers
       var remainder = x % y;
@@ -21,24 +31,23 @@ class App extends Component {
     return (
       <div className="App">
         <CssBaseline />
-        {/*<h1> Prime Minister timeline! </h1>*/}
+        {/*<h1> Prime Minister timeLine! </h1>*/}
 
-        <Grid
-          spacing={24}
-          container
-          direction="row"
-          justify="center"
-          alignItems="center"
-        >
-          {timeLine.map((values, i) => {
-              if (multiple(i)){
-                  return <Bio {...values} />;
-              }else{
-                  return <Bio {...values} />;
-              }
-
-          })}
-        </Grid>
+        {timeLine.map((values, i) => {
+          if (multiple(i)) {
+            return (
+              <Grid
+                spacing={8}
+                container
+                direction="row"
+                justify="center"
+                alignItems="center"
+              >
+                {displayRow(timeLine, i)}
+              </Grid>
+            );
+          }
+        })}
       </div>
     );
   }
